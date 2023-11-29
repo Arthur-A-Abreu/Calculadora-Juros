@@ -76,6 +76,12 @@
     outline: none;
 }
 
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button{
+    appearance: none;
+
+}
+
 #result{
     text-align: center;
 }
